@@ -1,8 +1,8 @@
-🚀 KonkurCS — Gamified Persian CS Exam Prep
+# 🚀 KonkurCS — Gamified Persian CS Exam Prep
 
 A Persian-first, RTL, gamified web platform for Iranian students preparing for Konkur, Computer Science university entrance exams, and Olympiad-style problem solving — built as a fast, modular MVP with zero backend.
 
-🎯 What is this?
+## 🎯 What is this?
 
 KonkurCS is a lightweight web app that turns dry CS exam prep into a game-like experience:
 
@@ -17,66 +17,49 @@ KonkurCS is a lightweight web app that turns dry CS exam prep into a game-like e
 Designed specifically for:
 
 🇮🇷 Iranian students
-
 🎓 10th–12th graders
-
 ⏳ Gap-year takers
-
 🧠 Konkur & CS entrance exam candidates
 
-🧩 Features
-📚 Subjects
+## 🧩 Features
+### 📚 Subjects
 
 Data Structures & Algorithms
-
 Operating Systems
-
 Computer Architecture
-
 Databases
-
 Computer Networks
-
 Artificial Intelligence
-
 Signals & Systems
 
-🎮 Gamification
+### 🎮 Gamification
 
 XP system
-
 Streak tracking
-
 Levels
-
 Badges
-
 Session stats
-
 Progress persistence via localStorage
 
-⚡ Core Functionality
+## ⚡ Core Functionality
 
 Choose subject
-
 Choose difficulty or random
-
 Instant feedback
-
 Clean Persian RTL UI
-
 Fully modular JSON question bank
-
 Add new questions without touching JS
 
-🏗️ Tech Stack
+## 🏗️ Tech Stack
+
 Layer	Tech
 Frontend	HTML, CSS, Vanilla JS
 Data	JSON
 Direction	RTL Persian
 Storage	Browser localStorage
 Backend	❌ None (by design)
-📂 Project Structure
+
+## 📂 Project Structure
 /
 ├── index.html      # Main UI
 ├── style.css       # RTL styling + animations
@@ -84,7 +67,7 @@ Backend	❌ None (by design)
 ├── questions.json  # Expandable question bank
 └── README.md
 
-🧠 Question Bank Format
+## 🧠 Question Bank Format
 
 Questions are stored in questions.json like this:
 
