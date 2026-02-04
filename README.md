@@ -1,36 +1,105 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🚀 KonkurCS — Gamified Persian CS Exam Prep
 
-## Getting Started
+A Persian-first, RTL, gamified web platform for Iranian students preparing for Konkur, Computer Science university entrance exams, and Olympiad-style problem solving — built as a fast, modular MVP with zero backend.
 
-First, run the development server:
+🎯 What is this?
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+KonkurCS is a lightweight web app that turns dry CS exam prep into a game-like experience:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+✅ Subject-based practice
+✅ Difficulty filtering
+✅ Randomized quizzes
+✅ Streaks, XP, levels, badges
+✅ Fully Persian (RTL) interface
+✅ JSON-powered expandable question bank
+✅ No backend required (pure frontend MVP)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Designed specifically for:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🇮🇷 Iranian students
 
-## Learn More
+🎓 10th–12th graders
 
-To learn more about Next.js, take a look at the following resources:
+⏳ Gap-year takers
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🧠 Konkur & CS entrance exam candidates
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🧩 Features
+📚 Subjects
 
-## Deploy on Vercel
+Data Structures & Algorithms
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Operating Systems
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Computer Architecture
+
+Databases
+
+Computer Networks
+
+Artificial Intelligence
+
+Signals & Systems
+
+🎮 Gamification
+
+XP system
+
+Streak tracking
+
+Levels
+
+Badges
+
+Session stats
+
+Progress persistence via localStorage
+
+⚡ Core Functionality
+
+Choose subject
+
+Choose difficulty or random
+
+Instant feedback
+
+Clean Persian RTL UI
+
+Fully modular JSON question bank
+
+Add new questions without touching JS
+
+🏗️ Tech Stack
+Layer	Tech
+Frontend	HTML, CSS, Vanilla JS
+Data	JSON
+Direction	RTL Persian
+Storage	Browser localStorage
+Backend	❌ None (by design)
+📂 Project Structure
+/
+├── index.html      # Main UI
+├── style.css       # RTL styling + animations
+├── app.js          # Game logic
+├── questions.json  # Expandable question bank
+└── README.md
+
+🧠 Question Bank Format
+
+Questions are stored in questions.json like this:
+
+{
+  "dsa": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "پیچیدگی زمانی الگوریتم جستجوی دودویی چیست؟",
+      "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+      "answer": 1,
+      "explanation": "در هر مرحله فضای جستجو نصف می‌شود."
+    }
+  ]
+}
+
+
+Add unlimited questions without touching code.
